@@ -21,7 +21,7 @@ mongoose.connect(process.env.MONGO_URL)
 app.use(express.json());
 app.use(cors(
   {
-    origin: ['http://localhost:3000','https://stupefied-williams-d52d03.netlify.app'],
+    origin: ['http://localhost:3000','https://bookmyfood.netlify.app'],
     credentials: true,
   }
 ));
